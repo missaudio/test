@@ -1,0 +1,126 @@
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .text1 {
+      align-items: center;
+      text-align: center;
+      background-color: rgb(18, 179, 190);
+      color: white;
+      padding: 12px;
+  }
+
+  .text2 {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(29, 170, 226);
+    color: white;
+    padding: 12px;
+}
+
+.text3 {
+    align-items: center;
+    text-align: center;
+    background-color: plum;
+    color: white;
+    padding: 12px;
+}
+
+.img{
+    display: flex;
+}
+.pic{
+    width: 7%;
+    height: 7%;
+}
+
+.head{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.content{
+    margin-left: 10px;
+    color: white;
+}
+
+.para{
+    margin-left: 10px;
+    color: white;
+}
+
+.reply{
+    margin-right: 20px;
+    color: aqua;
+}
+
+.part{
+    margin-top: 40px;
+    background-color: rgb(43, 43, 141);
+}
+
+#name{
+    margin: 0 10px 20px 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#email{
+    margin: 0 10px 20px 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#subject{
+    margin: 0 10px 20px 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+input{
+    width: 29%;
+}
+
+textarea {
+    width: 1000px;
+    height: 150px;
+  }
+
+  #text{
+      padding: 10px;
+      background-color: black;
+      color: white;
+  }
+
+.area{
+   margin-left: 20px;
+}
+
+
+
+.btn {
+    border: none;
+   margin: 20px;
+   padding: 30px;
+   width: 180px;
+   border-radius: 8px;
+   cursor: pointer;
+   color: white;
+   background-size: 200%;
+   background-image: linear-gradient(to left, #81ecec, #9980FA, #81ecec)
+
+}
